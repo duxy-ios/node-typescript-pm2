@@ -1,5 +1,5 @@
-FROM node:latest
-MAINTAINER cowpanda<ynw506@gmail.com>
+FROM node:12.20.0-alpine3.10
+MAINTAINER ducy
 
 RUN npm install -g pm2@latest  && npm install --silent --save-dev -g typescript
 
